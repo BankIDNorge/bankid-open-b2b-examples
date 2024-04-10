@@ -1,0 +1,13 @@
+no\bankid\openb2b\OcspResponderCertPreprod.class
+no\bankid\openb2b\OcspResponderCertProd.class
+no\bankid\openb2b\Signer.class
+no\bankid\openb2b\OcspRequester.class
+no\bankid\openb2b\VerifiedSignature.class
+no\bankid\openb2b\BankIDStatusChecker.class
+no\bankid\openb2b\OcspResponderSslTrust.class
+no\bankid\openb2b\SecurityProvider.class
+no\bankid\openb2b\Verifier.class
+no\bankid\openb2b\BankIDRootCertPreprod.class
+no\bankid\openb2b\BankIDRootCertProd.class
+no\bankid\openb2b\BankIDStatus.class
+no\bankid\openb2b\BankIDEnvironment.class
