@@ -90,7 +90,7 @@ The result of a successful activation and conversion with makep12 is a standard 
 
 Signing: Non Repudiation
 
-BankID makep12
+#### BankID makep12
 
 When ordering and activating a B2B BankID with HAT, HAT creates a special keystore-format, this keystore is called a BID file.
 
@@ -100,15 +100,13 @@ In order to use the tool, you will need to have JAVA_HOME and PATH setup correct
 
 To run it, unpack the zip file and run:
 
-cd <makep12 directory>
+cd makep12
 
 Linux: ./bin/makep12 <bidfile>
 
 Windows: bin/makep12.bat <bidfile>
 
 makep12 will then read the bidfile and convert it to PKCS#12, the resulting file will be stored as <bidfile prefix>-sign.p12
-
-
 
 The resulting .p12 file can then be used by e.g. java to do sign/verification using the private/public key and certificate chain.
 
