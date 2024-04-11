@@ -1,8 +1,9 @@
 # BankID Open B2B Examples
 
-This repository contains code examples for BankID Open B2B
+This repository contains code examples for BankID Open B2B.
+
 The documentation for BankID Open B2B is located [here](doc/BankID-Open-B2B.md)
-.
+
 
 ## Disclaimer
 The code in this repository is provided as _examples_ for using BankID Open B2B. The code is not accurate or complete enough for banks, merchants, partners or vendors to rely on without further amendment. BankID Norge is not responsible for any errors or omissions.
