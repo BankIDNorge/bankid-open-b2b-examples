@@ -1,5 +1,7 @@
 # BankID Open B2B Examples
 
+> **DEPRECATION NOTICE (Effective August 2026)**: BankID Open B2B is deprecated and should no longer be used for new development or production deployments. The project and examples are kept for historical/reference purposes only.
+
 This repository contains code examples for BankID Open B2B.
 
 The documentation for BankID Open B2B is located [here](doc/BankID-Open-B2B.md)

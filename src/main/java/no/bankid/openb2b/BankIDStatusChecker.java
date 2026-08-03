@@ -14,6 +14,10 @@ class BankIDStatusChecker {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BankIDStatusChecker.class);
 
+    // DEPRECATION NOTICE: BankID Open B2B is deprecated and should not be used for new development
+    // or production deployments (effective August 2026). This code is kept for historical
+    // and reference purposes only.
+
     private final Set<TrustAnchor> trustAnchors;
     private final X509Certificate ocspResponderCert;
     private final List<? extends Certificate> signerCertChain;

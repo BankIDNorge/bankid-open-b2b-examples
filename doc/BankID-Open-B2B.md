@@ -1,4 +1,7 @@
 # BankID Open B2B Description
+
+> **DEPRECATION NOTICE (Effective August 2026)**: BankID Open B2B is deprecated and should no longer be used for new development or production deployments. This documentation is retained for historical and reference purposes only.
+
 BankID OpenB2B  is a specific packaging of documentation, tools and example code on how to use BankID merchant certificates for B2B signing applications without the need to install or use any software from BankID
 
 This page describes the BankID Open B2B packaging, ie. a set of documentation, tools and example code on how to use BankID merchant certificates in business-to-business scenarios. An Open B2B BankID consists of industry compliant X.509 certificates, and can be used without the need for installed BankID software. The target audience of this document is merchant project teams: Technical personnel designing and coding the use of BankID Open B2B. 
