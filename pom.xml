@@ -9,9 +9,9 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <description>
-        Example code for BankID Open B2B. See
-        https://confluence.bankidnorge.no/confluence/display/DEVPUB/BankID+Open+B2B for
-        complete BankID Open B2B documentation.
+        Example code for BankID Open B2B. DEPRECATION NOTICE: BankID Open B2B is deprecated (effective August 2026) and
+        this project is retained for historical/reference purposes only. See
+        https://confluence.bankidnorge.no/confluence/display/DEVPUB/BankID+Open+B2B for reference documentation.
     </description>
 
     <developers>

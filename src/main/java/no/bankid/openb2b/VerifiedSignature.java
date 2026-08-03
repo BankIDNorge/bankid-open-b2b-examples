@@ -17,6 +17,10 @@ class VerifiedSignature {
     private final OCSPResponse ocspResponse;
     private final X509Certificate signerCert;
 
+    // DEPRECATION NOTICE: BankID Open B2B is deprecated and should not be used for new development
+    // or production deployments (effective August 2026). This code is kept for historical
+    // and reference purposes only.
+
     VerifiedSignature(CMSSignedData signedData, CertPath certPath) {
         this.certPath = certPath;
         this.signerCert = (X509Certificate) certPath.getCertificates().get(0);

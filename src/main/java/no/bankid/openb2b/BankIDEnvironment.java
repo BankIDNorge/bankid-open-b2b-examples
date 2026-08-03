@@ -16,6 +16,10 @@ public enum BankIDEnvironment {
     PREPROD,
     PROD;
 
+    // DEPRECATION NOTICE: BankID Open B2B is deprecated and should not be used for new development
+    // or production deployments (effective August 2026). This code is kept for historical
+    // and reference purposes only.
+
     TrustAnchor getBankIDRoot() {
         try (InputStream certStream = name().equals(PREPROD.name()) ?
                 BankIDRootCertPreprod.getInputStream() :

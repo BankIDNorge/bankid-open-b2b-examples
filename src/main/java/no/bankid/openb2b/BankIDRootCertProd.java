@@ -44,3 +44,7 @@ class BankIDRootCertProd {
         return new ByteArrayInputStream(BANKID_ROOT_CERTIFICATE_PROD.getBytes());
     }
 }
+
+// DEPRECATION NOTICE: BankID Open B2B is deprecated and should not be used for new development
+// or production deployments (effective August 2026). This code is kept for historical
+// and reference purposes only.
